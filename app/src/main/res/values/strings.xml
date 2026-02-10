@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PSP Launcher</string>
+
+    <string name="copyright">Copyright by\nPT Teknologi Indonesia </string>
+    <string name="message_warning">Layanan Lokasi Belum Aktif,
+        Silahkan Aktifkan Layanan Lokasi Terlebih Dahulu</string>
+</resources>
