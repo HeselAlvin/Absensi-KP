@@ -9,7 +9,7 @@ import okhttp3.Interceptor
 import okhttp3.Response
 import javax.inject.Inject
 
-class AuthInterceptor @Inject constructor(@ApplicationContext context: Context): Interceptor {
+class AuthInterceptor @Inject constructor(@ApplicationContext context: Context) : Interceptor {
     private val userPreferences: UserPreferences = UserPreferences(context)
 
     override fun intercept(chain: Interceptor.Chain): Response {

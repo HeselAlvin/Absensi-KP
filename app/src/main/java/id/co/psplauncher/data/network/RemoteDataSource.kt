@@ -11,7 +11,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 import javax.inject.Inject
 
-class RemoteDataSource@Inject constructor(@ApplicationContext context: Context)  {
+class RemoteDataSource @Inject constructor(@ApplicationContext context: Context) {
     companion object {
         const val BASE_URL = "https://api-reqruitment.tkilocal.biz.id"
     }

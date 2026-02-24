@@ -13,7 +13,7 @@ abstract class BaseRepository {
     suspend fun <T> safeApiCall(
         apiCall: suspend () -> Response<T>,
         userPreferences: UserPreferences,
-    ) : Resource<T> {
+    ): Resource<T> {
         return withContext(Dispatchers.IO) {
             try {
                 val response = apiCall.invoke()
